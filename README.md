@@ -1,8 +1,16 @@
-# React + Vite
+# VirtualR Landing Page Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Why it was built?
 
-Currently, two official plugins are available:
+This landing page project was created as a personal challenge to enhance frontend skills, practice using React and Tailwind CSS, and improve efficiency under time constraints. The goal was to build a fully responsive and clean UI quickly while adhering to best coding practices. It also serves as a portfolio piece to showcase skills and gather feedback for further improvement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies used
+
+- React: Chosen for its component-based architecture and efficiency in building interactive UIs.
+
+- Tailwind CSS: Used for its utility-first approach, allowing rapid styling and responsive design directly
+  within the HTML.
+
+- Vite: Selected for its fast development build and instant hot module replacement (HMR), improving the development experience.
+
+- Netlify: Utilized for its ease of deployment, continuous integration, and reliable hosting of the live demo.
