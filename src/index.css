@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+  color-scheme: dark;
+}
+
+/* For the entire scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar (for horizontal scrollbar) */
+}
+
+/* For the scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #1f1f1f; /* Color of the track */
+  border-radius: 10px; /* Rounded corners of the track */
+}
+
+/* For the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #444; /* Color of the handle */
+  border-radius: 10px; /* Rounded corners of the handle */
+  transition-duration: 1000ms;
+}
+
+/* For the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovering */
+}
